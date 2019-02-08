@@ -22,7 +22,11 @@ public class TicTacToeView {
            Return as a TicTacToeMove object. */
         
         // INSERT YOUR CODE HERE
-
+        
+        System.out.println("Enter the row and column of the space you want: ");
+        
+        
+        
         return null; // remove this line later!
 
     }
