@@ -98,9 +98,12 @@ public class TicTacToeModel {
         /* Return TRUE if the specified location is within the bounds of the board */
         
         // INSERT YOUR CODE HERE
-
-        return false; // remove this line later!
         
+        if(row == 0 && col == 0){
+            return true;
+        } else {
+            return false;
+        }   
     }
 	
     private boolean isSquareMarked(int row, int col) {
@@ -109,7 +112,11 @@ public class TicTacToeModel {
         
         // INSERT YOUR CODE HERE
 
-        return false; // remove this line later!
+        if(row == 0 && col == 0){
+            return true;
+        } else {
+            return false;
+        }   
             
     }
 	
@@ -119,7 +126,7 @@ public class TicTacToeModel {
         
         // INSERT YOUR CODE HERE
 
-        return null; // remove this line later!
+         
             
     }
 	
